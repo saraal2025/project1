@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sara website</title>
+    <!-- نستورد المكتبة قبل ملف ال css لانه اذا بدي عدل على بعض القيم في المكتبة اكون قادر على التعديل لان الملف يلي بعد يكون الاقوى -->
+     <!-- هذه المكتبة تعمل ضبط لبعض العناصر في css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/logooo.jpg">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <a class="logo" href="/">
+            <img  src="imgs/logooo.jpg" alt="">
+        </a>
+        <nav>
+            <!-- نضع هذه الايقونة قبل القائمة لانه القائمة مخفية -->
+            <i id="icon-mobile" class="fa-solid fa-bars  nav-tag"></i>
+            <ul id="ul-mobile">
+            
+                <li><a href="/">الرئيسية</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#">المدونة</a></li>
+                <li><a href="#protfolio">معرض الاعمال</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+
+        </nav>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+
+        </div>
+    </div>
+  </header>  
+   <!-- start hero sectio -->
+    <section class="hero">
+        <div class="container">
+          <div class="hero_info">
+            <h1 class="hero-title">شركة تكنوتك التقنية</h1>
+            <h2>شبكات-برمجة-صيانة</h2>
+            <p>
+                شركة تكنوتك  ‏ هي من أنواع الكيان التجاري والتي تركز في المقام الأول على تطوير وتصنيع التقنية أو التكنولوجيا. وتعتبر الشركات التالية نموذجا مثاليا على شركات التكنولوجيا: آي بي إم، مايكروسوفت، آبل، أوراكل، لينوفو، هواوي. تعتبر شركات تقنية المعلومات وشركات التقنية العالية على أنها شركات فرعية لشركات التكنولوجيا. 
+            </p>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="call">
+            <button>اتصل بنا</button>
+            <button>المزيد</button>
+          </div>
+          </div>
+          
+          <div class="hero-img">
+              <img src="imgs/img4.jpg"  alt="hero-img">
+          </div>
+    </div>
+    </section>
+    <!-- end hero sectio -->
+     <!-- start services section -->
+
+
+     <section class="services"    id="services">
+              <div class="container">
+                <h2 class=" section-title">خدماتنا الاحترافية</h2>
+                <p class=" section-desc">
+                  الخدمات التي يمكن أن تُقدِّمها شركة تقنية تعتمد على تقنيات مثل HTML، Bootstrap، Flutter، وPython تشمل مجموعة واسعة من الحلول الرقمية. فيما يلي قائمة بالخدمات المحتملة:
+                </p>
+                <div class="all-services">
+                   <div class="service">
+                    <img  src="imgs/flutter.svg" alt="img">
+                    <h3> Flutter </h3>
+                    <p>
+                      Flutter هو إطار عمل مفتوح المصدر من Google يُستخدم لتطوير تطبيقات الهواتف الذكية والويب بواجهة رسومية.
+                    </p>
+                   </div>
+                   <div class="service">
+                    <img height="150" width="150" src="imgs/bootstrap-5-1 (1).svg" alt="img">
+                    <h3>Bootstrap </h3>
+                    <p> هو إطار عمل مفتوح المصدر يُستخدم لتصميم واجهات مستخدم جذابة ومتجاوبة بسهولة.يجعل Bootstrap التصميم متجاوبًا وجميلًا</p>
+                   </div>
+                   <div class="service">
+                    <img width="150" src="imgs/angular-icon-1.svg" alt="img">
+                    <h3>تصميم وبرمجة المواقع </h3>
+                    <p>ي شركة متخصصة في تقديم حلول مبتكرة ومتطورة لشركات والمؤسسات</p>
+                   </div>
+                   <div class="service">
+                    <img width="150" src="imgs/python-5 (1).svg" alt="img">
+                    <h3>Python </h3>
+                    <p>Python هي لغة برمجة قوية تُستخدم في تطوير الواجهات الخلفية للمواقع والتطبيقات</p>
+                   </div>
+                   
+
+
+
+
+
+                </div>
+              </div>
+
+
+     </section>
+      <!-- end services section -->
+       <!-- star about us section -->
+          <section class="about-us">
+            <div class="container">
+
+              <div class="about-info">
+                <h2>حول شركة تكنوتك</h2>
+                <p>
+                 
+                شركة تكنوتك التقني قد تكون شركة افتراضية أو حقيقية، لكن بناءً على الاسم يمكن تصورها كشركة تقنية متخصصة في تقديم الحلول التكنولوجية المبتكرة
+ تسعى تكنوتك إلى أن تكون رائدة في مجال التقنية والابتكار من خلال تقديم منتجات وحلول تسهم في تحسين جودة الحياة الرقمية
+
+تمكين الأفراد والشركات من تحقيق أهدافهم باستخدام أحدث التقنيات وأفضل الممارسات في عالم التكنولوجيا
+                </p>
+                <button class="about-call">للمزيد اضغط هنا</button>
+
+              </div>
+              <div class="about-img">
+                <img  src="imgs/about.jpg" alt="img">
+                
+              </div>
+
+
+            </div>
+         </section>  
+
+        <!-- end about us section -->
+        <!-- start statistcs  section -->
+         <section class="statistcs">
+          
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="stat">
+              <h3>300</h3>
+              <p>عدد الموظفين </p>
+            </div>
+            <div class="stat">
+              <h3>500</h3>
+              <p>عميل </p>
+            </div>
+            <div class="stat">
+              <h3>30%</h3>
+              <p>النمو السنوي</p>
+            </div>
+            <div class="stat">
+              <h3>7500</h3>
+              <p>موقع الكتروني</p>
+            </div>
+          </div>
+         </section>
+
+        <!-- end  statistcs  section -->
+         <!-- start courses  section -->
+          <section class="courses">
+                <h2 class=" section-title">كورساتنا المتوفرة</h2>
+                <p class=" section-desc">
+                  إذا كنتِ تفكرين في تقديم أو حضور كورسات تعليمية تعتمد على التقنيات، فإليك قائمة بالكورسات المحتملة التي يمكن أن تكون مفيدة للمبتدئين أو المحترفين:
+                </p>
+               
+                <div class="container">
+                      <div class="all-courses">
+                        <div class="course">
+                          <div class="category">فرونت اند</div>
+                          <img height="330px"   src ="imgs/img6.jpg"    alt="">
+                          <h2 class="course-titel">كورس الفوتوشوب</h2>
+                          <p> هذا الكورس مخصص للمبتدئين والمحترفين الذين يرغبون في تعلم أدوات التصميم وتحرير الصور باستخدام Adobe Photoshop.</p>
+                          <div class="course-price">
+                            <div>
+                              <span>السعر:</span>
+                              <span>250$</span>
+                            </div>
+                            <span>150$</span>
+                          </div>
+                          <hr>
+                          <div class="course-info">
+                           <div>
+                            <i class="fa-solid  fa-users"></i>
+                            <span>1200</span>
+                           </div>
+                           <div class="reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            
+
+                           </div>
+                          </div>
+                          <button class="course-details">تفاصيل الكورس</button>
+                        </div>
+
+
+                          <div class="course">
+                            <div class="category">فرونت اند</div>
+                            <img height="330" src ="imgs/courses/cor3.jpg"    alt="">
+                            <h2 class="course-titel">كورس برمجة التطبيقات</h2>
+                            <p> هذا الكورس مخصص لكل من يريد تعلم بناء تطبيقات للهواتف الذكية باستخدام Flutter. ستتعلم أساسيات لغة Dart،</p>
+                            <div class="course-price">
+                              <div>
+                                <span>السعر:</span>
+                                <span>550$</span>
+                              </div>
+                              <span>350$</span>
+                            </div>
+                            <hr>
+                            <div class="course-info">
+                              <div>
+                                <i class="fa-solid  fa-users"></i>
+                                <span>70</span>
+                               </div>
+                               <div class="reviews">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+    
+                               </div>
+                            </div>
+                            <button class="course-details">تفاصيل الكورس</button>
+                          </div>
+
+
+
+
+
+                            <div class="course">
+                              <div class="category">فرونت اند</div>
+                              <img src ="imgs/courses/cor4.jpg"    alt="">
+                              <h2 class="course-titel">كورس الذكاء الصنعي</h2>
+                              <p>كورس شامل يهدف إلى تعريفك بمبادئ الذكاء الصناعي والتعلم الآلي باستخدام لغة Python. ستتعلم كيفية بناء نماذج تحليلية</p>
+                              <div class="course-price">
+                                <div>
+                                  <span>السعر:</span>
+                                  <span>450$</span>
+                                </div>
+                                <span>250$</span>
+                              </div>
+                              <hr>
+                              <div class="course-info">
+                                <div>
+                                  <i class="fa-solid  fa-users"></i>
+                                  <span>100</span>
+                                 </div>
+                                 <div class="reviews">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+      
+                                 </div>
+                              </div>
+                              <button class="course-details">تفاصيل الكورس</button>
+                            </div>
+
+
+
+
+
+
+                              <div class="course">
+                                <div class="category">فرونت اند</div>
+                                <img height="330" src ="imgs/courses/cor5.jpg"    alt="">
+                                <h2 class="course-titel">كورس الفرونت اند</h2>
+                                <p> كورس متخصص في تطوير واجهات المستخدم لمواقع الويب. يُمكنك من تعلم تقنيات تصميم الهياكل الأساسية (HTML، CSS)،</p>
+                                <div class="course-price">
+                                  <div>
+                                    <span>السعر:</span>
+                                    <span>300$</span>
+                                  </div>
+                                  <span>150$</span>
+                                </div>
+                                <hr>
+                                <div class="course-info">
+                                  <div>
+                                    <i class="fa-solid  fa-users"></i>
+                                    <span>80</span>
+                                   </div>
+                                   <div class="reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  
+        
+                                   </div>
+                                </div>
+                                <button class="course-details">تفاصيل الكورس</button>
+                              </div>
+
+
+
+                          
+
+                        </div>
+
+              </div>
+            </div>
+              
+                   
+             
+          </section>
+          <!-- end courses  section -->
+           <!-- start protfolio  section -->
+               <section class="protfolio"  id="protfolio">
+                <div class="container">
+                  <h2 class=" section-title">من اعمالنا الاحترافية</h2>
+                  <p class=" section-desc">
+                      هي شركة متخصصة في تقديم حلول مبتكرة ومتطورة لشركات والمؤسسات
+                  </p>
+                  <div class="port-container">
+                  <div class="box">
+                    <img  width="430" height="360" src="imgs/portfolio/port2.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لشركة برمجية</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img   width="430"  height="360" src="imgs/portfolio/port1.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لشركة تجارية </h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img  width="430" height="360" src="imgs/portfolio/port3.jpg"   alt="">
+                    <div class="info">
+                      <h2>تطبيق تعليم القرآن للأطفال</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img width="430" height="355" src="imgs/portfolio/port8.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لتعليم البرمجة </h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img   width="430" height="355" src="imgs/portfolio/port5.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لشركة اعلامية</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img  width="430" height="355" src="imgs/portfolio/port7.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لشركة عقارات</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img  width="430" height="355" src="imgs/portfolio/port6.jpg"   alt="">
+                    <div class="info">
+                      <h2>موقع لمتجر الكتروني لبيع الحواسيب</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  <div class="box">
+                    <img  width="430" height="355" src="imgs/portfolio/port4.jpg"   alt="">
+                    <div class="info">
+                      <h2>تطبيق لتعليم اللغة الانكليزية</h2>
+                      <p>Syria-Idleb</p>
+                    </div> 
+                  </div>
+
+                  </div>
+                </div>
+               </section>
+            <!-- end protfolio  section -->
+
+            <!-- start team  section -->
+             <section class="our-team">
+              <div class="container">
+                <h2 class=" section-title">فريقنا المميز</h2>
+                  <p class=" section-desc">
+                  وهنا فريق العمل الذي يتكون من اشخاص ذوي خبرة متنوعة ويعمل دائماً على تقديم افضل الحلول البرمجية
+                  </p>
+                  <div class="team-container">
+                    <div class="team-box">
+
+
+                        <div class="img-social">
+                        <div class="social">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                         <i class="fa-brands fa-youtube"></i>
+                         <i class="fa-brands fa-whatsapp"></i>
+                          <i class="fa-brands fa-linkedin"></i>
+                         </div>
+                         <img src="imgs/team1.jpg"  alt="">
+                         </div>
+
+
+
+                         <div class="team-info">
+                          <h3>عائشة الكامل</h3>
+                          <p>المديرة التنفيذية</p>
+                       </div>
+                    </div>
+
+
+
+                    <div class="team-box">
+
+
+                      <div class="img-social">
+                      <div class="social">
+                       <i class="fa-brands fa-facebook"></i>
+                       <i class="fa-brands fa-instagram"></i>
+                       <i class="fa-brands fa-youtube"></i>
+                       <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                       </div>
+                       <img width="240" height="160" src="imgs/team8.jpg"  alt="">
+                       </div>
+
+
+
+                       <div class="team-info">
+                        <h3>سالي عبد الحميد</h3>
+                        <p>اختصاصية شبكات</p>
+                     </div>
+                  </div>
+
+
+
+
+
+                  <div class="team-box">
+
+
+                    <div class="img-social">
+                    <div class="social">
+                     <i class="fa-brands fa-facebook"></i>
+                     <i class="fa-brands fa-instagram"></i>
+                     <i class="fa-brands fa-youtube"></i>
+                     <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                     </div>
+                     <img width="240" height="160" src="imgs/team2.jpg"  alt="">
+                     </div>
+
+
+
+                     <div class="team-info">
+                      <h3>ألمى المحمود</h3>
+                      <p>مسؤولة دعم العملاء</p>
+                   </div>
+                </div>
+
+
+
+
+                <div class="team-box">
+
+
+                  <div class="img-social">
+                  <div class="social">
+                   <i class="fa-brands fa-facebook"></i>
+                   <i class="fa-brands fa-instagram"></i>
+                   <i class="fa-brands fa-youtube"></i>
+                   <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                   </div>
+                   <img width="240" height="160" src="imgs/team5.jpg"  alt="">
+                   </div>
+
+
+
+                   <div class="team-info">
+                    <h3>ساندي بل </h3>
+                    <p>مصممة ui/ux</p>
+                 </div>
+              </div> 
+
+
+
+
+
+              <div class="team-box">
+
+
+                <div class="img-social">
+                <div class="social">
+                 <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-youtube"></i>
+                 <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                 </div>
+                 <img width="240" height="160" src="imgs/team4.jpg"  alt="">
+                 </div>
+
+
+
+                 <div class="team-info">
+                  <h3>زينب تيزال</h3>
+                  <p>مديرة الدعم الفني</p>
+               </div>
+            </div> 
+
+
+
+
+            <div class="team-box">
+
+
+              <div class="img-social">
+              <div class="social">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-youtube"></i>
+               <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+               </div>
+               <img width="240" height="160" src="imgs/team7.jpg"  alt="">
+               </div>
+
+
+
+               <div class="team-info">
+                <h3>قمر الخالد</h3>
+                <p>مصممة مواقع ويب</p>
+             </div>
+          </div>
+
+
+          <div class="team-box">
+
+
+            <div class="img-social">
+            <div class="social">
+             <i class="fa-brands fa-facebook"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-youtube"></i>
+             <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-linkedin"></i>
+             </div>
+             <img src="imgs/team3.jpg"  alt="">
+             </div>
+
+
+
+             <div class="team-info">
+              <h3>سنا الحميد</h3>
+              <p>مطورة برامج تطبيقية</p>
+           </div>
+        </div>
+
+
+        <div class="team-box">
+
+
+          <div class="img-social">
+          <div class="social">
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-youtube"></i>
+           <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+           <img width="240" height="160" src="imgs/team6.jpg"  alt="">
+           </div>
+
+
+
+           <div class="team-info">
+            <h3>لؤلؤة السليم</h3>
+            <p>مطورة برمجيات</p>
+         </div>
+      </div>
+
+
+
+                  </div>
+               </div>
+             </section>
+             
+            <!-- end team  section -->
+           <!-- start skill  section -->
+             
+           <section class="our-skills">
+            <h2 class=" section-title"> مهاراتي الشخصية</h2>
+                  <p class=" section-desc">
+                      
+                  </p>
+                  <div class="container">
+                    <div class="skills-info">
+
+                         <div class="skill">
+                          <div class="count">
+                            <p>laravel</p>
+                            <p>80%</p>
+                          </div>
+                          <div class="progrees">
+                            <div class="prog">
+                              <span style="width:80%;"></span>
+                            </div>
+                          </div>
+                         </div>
+
+
+                         <div class="skill">
+                          <div class="count">
+                            <p>php</p>
+                            <p>100%</p>
+                          </div>
+                          <div class="progrees">
+                            <div class="prog">
+                              <span  style="width:100%;"></span>
+                            </div>
+                          </div>
+                         </div>
+
+
+                         <div class="skill">
+                          <div class="count">
+                            <p>js</p>
+                            <p>70%</p>
+                          </div>
+                          <div class="progrees">
+                            <div class="prog">
+                              <span  style="width:70%;"></span>
+                            </div>
+                          </div>
+                         </div>
+
+
+                         <div class="skill">
+                          <div class="count">
+                            <p>css</p>
+                            <p>50%</p>
+                          </div>
+                          <div class="progrees">
+                            <div class="prog">
+                              <span  style="width:50%;"></span>
+                            </div>
+                          </div>
+                         </div>
+
+                         <div class="skill">
+                          <div class="count">
+                            <p>html</p>
+                            <p>40%</p>
+                          </div>
+                          <div class="progrees">
+                            <div class="prog">
+                              <span  style="width:40%;"></span>
+                            </div>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="skills-img">
+                      <img   height="430" src="imgs/skill4.jpg"   alt="">
+                      
+                    </div>
+                  </div>
+
+           </section>
+
+            <!-- end skill  section -->
+
+             <!-- start pricing section -->
+              <section class="pricing-section">
+                <h2 class=" section-title">خطط الاسعار</h2>
+                  <p class=" section-desc">
+                      هنا خطة الأسعار الشاملة لكل الخدمات المتوفرة لدينا:
+                  </p>
+                  <div class="container">
+                    <div class="plan">
+                        <h3 class="plan-titel">الخطة الاحترافية</h3>
+                        <img width="80" src="imgs/price1.jpg"  alt="">
+                        <div class="price">
+                          <p>350$</p>
+                          <p>شهرياً</p>
+                        </div>
+                        <ul>
+
+                          <li>استضافة موقع ويب</li>
+                          <li>نطاق(domain)</li>
+                          <li>شهادةssl</li>
+                          <li>1 حساب بريد الكتروني مخصص</li>
+                          <li>دعم فني عبر البريد</li>
+                          <li>مقابلة حصرية مرة واحدة</li>
+                            
+                            
+                        </ul>
+                        <button class="plan-btn">اشترك الان</button>
+                      </div>
+                       
+
+
+                      <div class="plan">
+                        <h3 class="plan-titel">خطة المشروع</h3>
+                        <img width="80" src="imgs/price1.jpg"  alt="">
+                        <div class="price">
+                          <p>450$</p>
+                          <p>سنويا</p>
+                        </div>
+                        <ul>
+
+                          <li>دعم فني مباشر عبر الدردشة</li>
+                          <li>دورات بتطويؤ تطبيقات الويب</li>
+                          <li>دروس فيديو مسجلة</li>
+                          <li>تمارين تطبيقية للمشاريع </li>
+                          <li>دورات تعليم البرمجة</li>
+                          <li>دورات تدريبية مجانية</li>
+                            
+                            
+                        </ul>
+                        <button class="plan-btn">اشترك الان</button>
+                      </div>  
+
+
+
+
+                      <div class="plan">
+                        <h3 class="plan-titel">الخطة الشاملة</h3>
+                        <img width="80" src="imgs/price1.jpg"  alt="">
+                        <div class="price">
+                          <p>550$</p>
+                          <p>شهرياً</p>
+                        </div>
+                        <ul>
+
+                          <li>ادوات امان متقدمة</li>
+                          <li>خدمات تكامل الحسابات</li>
+                          <li>دعم فني على الساعة</li>
+                          <li>خمس حسابات بريد مخصصة</li>
+                          <li>ادوات تساعد في محركات البحث</li>
+                          <li>استشارات تقنية</li>
+                            
+                            
+                        </ul>
+                        <button class="plan-btn">اشترك الان</button>
+                      </div>
+                      
+                      
+
+                      <div class="plan">
+                        <h3 class="plan-titel">الخطة الاساسية</h3>
+                        <img width="80" src="imgs/price1.jpg"  alt="">
+                        <div class="price">
+                          <p>150$</p>
+                          <p>سنويا</p>
+                        </div>
+                        <ul>
+
+                          <li>دورات ذكاء صنعي</li>
+                          <li>خمس مصادر جديدة </li>
+                          <li>دروس مسجلة عبر الذكاء الصنعي</li>
+                          <li>تطوير برمجيات مخصصة</li>
+                          <li>ادوات التسويق عبر البريد</li>
+                          <li>استضافة سحابية غير مجدودى</li>
+                            
+                            
+                        </ul>
+                        <button class="plan-btn">اشترك الان</button>
+                      </div>
+
+                      
+                    </div>
+
+              </section>
+
+
+              <!-- end pricing section -->
+             <!-- start  testimonials section -->
+              <section class="testimonials ">
+                <h2 class=" section-title">أراء العملاء</h2>
+                  <p class=" section-desc">
+                  نقدر آراء العملاء الكرام وهذا بعضاً من ارائهم : 
+                  </p>
+                <div class="container">
+                  <div class="testimonial">
+                    <img src="imgs/testimon1.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      
+                    
+                    </div>
+                    <p class="review">
+                      
+                      أشاد العديد من العملاء بجودة البرمجيات التي تقدمها الشركة وابتكارها في الحلول التقنية. كانت هذه المزايا واضحة في مشاريع مثل تطوير منصات تعليمية متخصصة
+                    </p>
+
+                  </div>
+                  <div class="testimonial">
+                    <img src="imgs/testimon2.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                    </div>
+                    <p class="review">
+                        اكثر ما يعجبني الدعم المستمر الذي تقدمه الشركة بعد إطلاق المشاريع، حيث يتم توفير حلول سريعة لأي مشاكل تقنية قد تواجههم. 
+                    </p>
+
+                  </div> 
+                  <div class="testimonial">
+                    <img src="imgs/testimon3.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                    </div>
+                    <p class="review">
+                       وفّرت أدوات لتصميم دورات تدريبية مخصصة، مما زاد من كفاءة العملية التعليمية
+                
+                    </p>
+
+                  </div> 
+                  <div class="testimonial">
+                    <img src="imgs/testimon4.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                     
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                    </div>
+                    <p class="review">
+                    "كنت أبحث عن طريقة لتقديم دوراتي التدريبية عبر الإنترنت وشركة تكنوتك كانت الحل الأمثل. الأدوات المتاحة فيها جعلت من السهل إدارة المحتوى والتفاعل مع الطلاب،
+                  
+                    </p>
+
+                  </div> 
+                  <div class="testimonial">
+                    <img src="imgs/testimon5.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>  
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                    </div>
+                    <p class="review">
+                      الدعم الفني كان سريعاً وفعالاً ساعدوني في تحسين موقعي بشكل  كبير
+                  
+                    </p>
+
+                  </div> 
+                  <div class="testimonial">
+                    <img src="imgs/testimon6.jpg"  alt="">
+                    <h3>ليلى السامي</h3>
+                    <p class="titel-testimonial">تطوير البرمجيات</p>
+                    <div class="star">
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="fill fa-solid fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                      <span><i class="empty fa-regular fa-star"></i></span>
+                    </div>
+                    <p class="review">
+                      التعامل مع شركو تكنوتك كانت تجربة رائعة ةخدمتهم للعملاء بشكل ممتاز
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </section>
+
+
+
+             <!-- end  testimonials section -->
+              <!-- start  footer section -->
+               <footer>
+                 <div class="container">
+                  <div class="section">
+                    <h2>نبذة عن الشركة </h2>
+                    <p>
+                      حلول مبتكرة ومتطورة لشركات والمؤسساحلول مبتكرة ومتطورة لشركات والمؤسساحلول مبتكرة ومتطورة لشركات والمؤسساحلول مبتكرة ومتطورة لشركات والمؤسسا
+                    </p>
+                  </div>
+
+
+                  <div class="section">
+                    <h2>اهم الكورسات</h2>
+                    <ul>
+                      <li><a href="">كورسات البرمجة</a></li>
+                      <li><a href="">كورسات التسويق الالكتروني</a></li>
+                      <li><a href="">كورسات التصميم</a></li>
+                      <li><a href="">كورسات غوغل السحابية</a></li>
+                      <li><a href="">كورسات برمجة التطبيقات</a></li>
+                    </ul>
+                  </div> 
+
+                 
+
+
+                  <div class="section">
+                    <h2>اهم الخدمات</h2>
+                    <ul>
+                      <li><a href="">تصميم مواقع ويب </a></li>
+                      <li><a href="">برمجة التطبيقات</a></li>
+                      <li><a href="">برمجة السيرفرات</a></li>
+                      <li><a href="">تصيم الجرافيك المونتاج</a></li>
+                      <li><a href="">التسويق الالكنروني</a></li>
+                    </ul>
+                  </div>  
+
+
+                  <div class="section">
+                    <h2>النشرة البريدية</h2>
+                    <div class="letter">
+                      <form>
+                      <input type="text"  placeholder="الرجاء ادخال الاسم">
+                      <input type="email"  placeholder="الرجاء ادخال البريد">
+                      <input type="submit"  value="ارسال البيانات">
+                      
+
+                      </form>
+                    </div>          
+                  </div> 
+   
+                 </div>
+                 <hr class="hr-footer">
+                 <div class="copyright">
+                   <p>كافة الحقوق محفوظة لشركة تكنوتك</p>
+                 </div>
+
+               </footer>
+
+
+
+
+               <!-- end  footer section -->
+                <a href="https//wa.me/09647575625 "  class="whatsapp" target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+              
+          <script src="js/script.js"></script>
+
+</body>
+</html>
